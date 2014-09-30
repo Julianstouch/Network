@@ -79,7 +79,7 @@ public class TimeManager extends ParamShared
                             // long waitTime = ((720000 - (System.currentTimeMillis() - debutFight)) / 60) / 1000;
                             // logIt("Starting waiting " + waitTime + " min before next fight.");
                             int newCash = Integer.valueOf(cash) + (fightPlayed * goldGain);
-                            logIt(Calendar.getInstance().getTime().toString() + " : " + fightPlayed + " fights for "+ newCash+"$");
+                            logIt(Calendar.getInstance().getTime().toString() + " : " + fightPlayed + " fights for "+ newCash+"$ (initial "+Integer.valueOf(cash)+"$)");
                         }
                         else
                         {

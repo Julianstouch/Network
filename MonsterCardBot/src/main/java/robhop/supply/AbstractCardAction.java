@@ -55,10 +55,7 @@ public abstract class AbstractCardAction  extends ParamShared implements IAction
         
     private Boolean present(BufferedImage screen, Dimension testDim)
     {
-        Boolean cardActive = testCardPresence(testDim, screen, true);
-        Boolean cardPresent = testCardPresence(testDim, screen, false);
-        
-        if (cardActive || cardPresent)
+        if (testCardPresence(testDim, screen, true) || testCardPresence(testDim, screen, false))
         {
             Boolean colorOk = testColor(screen, testDim, card.getColors().getRGB());
             int costFound = evalCost(testDim, screen);

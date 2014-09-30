@@ -27,29 +27,52 @@ public class ManageFight extends ParamShared
     {
         logIt("Starting Fight in 10 sec, waiting for cards to go in place");
         rWait(10);
-
+        
+        
         Card tank = Card.getMonsterPlay("Headless", tRed , 4, MID);
-        Card range = Card.getMonsterPlay("Destroyher", tOrange, 3, LEFT);
-        Card heal = Card.getMonsterSacr("Squid", tGreen , 3, 3);
-        //Card sacr = Card.getMonsterSacr("BigRat", tOrange /*ORANGE*/, 3, 3);
+        Card reach = Card.getMonsterPlay("Wolf", tRed, 3, LEFT);
+        Card sacr = Card.getMonsterSacr("Rat", tOrange, 3, 3);
         
         Card shield = Card.getItemPlay("Shield", tRed, 5, MID);
         Card dagger = Card.getItemPlaySacr("Dagger", tRed, 2, LEFT, 1);
-        Card bow =  Card.getItemPlaySacr("Bow", tRed, 4, LEFT, 1);
+        Card poison =  Card.getItemPlaySacr("Charm", tGray, 3, LEFT, 1);
         
         shield.getPlayCondition().add(tank);
-        range.getPlayCondition().add(shield);
-        bow.getPlayCondition().add(range);
-        bow.getSacrCondition().add(dagger);
-        dagger.getPlayCondition().add(range);
-        dagger.getSacrCondition().add(bow);
+        reach.getPlayCondition().add(shield);
+        poison.getPlayCondition().add(reach);
+        dagger.getPlayCondition().add(reach);
         
-        IAction debut = new CardAction(heal, this);
+        poison.getSacrCondition().add(dagger);
+        dagger.getSacrCondition().add(poison);
+        
+        IAction debut = new CardAction(sacr, this);
         IAction fin = new EndOfCard(null, this);
 
-        debut.setNext(new CardAction(tank, this)).setNext(new CardAction(shield, this)).setNext(new CardAction(range, this))
-                .setNext(new CardAction(bow, this)).setNext(new CardAction(dagger, this)).setNext(fin);
+        debut.setNext(new CardAction(tank, this)).setNext(new CardAction(shield, this)).setNext(new CardAction(reach, this))
+                .setNext(new CardAction(poison, this)).setNext(new CardAction(dagger, this)).setNext(fin);
         
+        /*
+        // Card definition : monsters 
+        Card dragon1 = Card.getMonsterPlay("Dragon1", tRed , 4, MID);
+        Card dragon2 = Card.getMonsterSacr("Dragon2", tRed , 4, 2);
+        Card snarer = Card.getMonsterPlay("Snarer", tBlue , 3, LEFT);
+        
+        // items
+        Card protector =  Card.getItemPlay("Protector", tRed, 3, MID);
+        
+        // condition : protector after dragon1 get played
+        protector.getPlayCondition().add(dragon1);
+        // ranged only if protector got played
+        snarer.getPlayCondition().add(protector);
+        
+        // first card to test is Dragon2 , for sacrifice.
+        IAction debut = new CardAction(dragon2, this);
+        // the last card is special. leave it like this, and always add it at the end
+        IAction fin = new EndOfCard(null, this);
+
+        // card chain : 
+        debut.setNext(new CardAction(dragon1, this)).setNext(new CardAction(protector, this)).setNext(new CardAction(snarer, this)).setNext(fin);
+        */
         restart = false;
         sacrDone = false;
         oneCanBePlay = false;
