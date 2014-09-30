@@ -1,0 +1,48 @@
+
+// imsInfo.txt images
+
+o fleche_bas_trans.png
+
+o fond_metal_v2.png
+o fond_metal_base.png
+
+o decors_crater.png
+
+o sous_le_feu.png
+
+o JTrisCombat_intro_1.png
+o JTrisCombat_intro_2.png
+o JTrisCombat_intro_3.png
+o JTrisCombat_intro_4.png
+o JTrisCombat_intro_5.png
+
+o JTrisCombat_res_draw.png
+o JTrisCombat_res_gameover.png
+o JTrisCombat_res_win.png
+
+o h-bazooka.png
+o h-close.png
+o h-sniper.png
+o h-soldier.png
+
+o lebonhomme_fusil_mort.png
+o lebonhomme_fusil_vivant.png
+o lebonhomme_couteau_mort.png
+o lebonhomme_couteau_vivant.png
+o lebonhomme_bazooka_mort.png
+o lebonhomme_bazooka_vivant.png
+o lebonhomme_sniper_mort.png
+o lebonhomme_sniper_vivant.png
+
+
+o soldat_fusil_vert.png
+o soldat_fusil_rouge.png
+o soldat_couteau_vert.png
+o soldat_couteau_rouge.png
+o soldat_bazooka_vert.png
+o soldat_bazooka_rouge.png
+o soldat_sniper_vert.png
+o soldat_sniper_rouge.png
+
+o soldat_vert_mort.png
+o soldat_rouge_mort.png
