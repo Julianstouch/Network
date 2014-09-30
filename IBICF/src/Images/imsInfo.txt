@@ -1,0 +1,130 @@
+
+// imsInfo.txt images
+
+o avion1.png
+o avion2.png
+o avion3.png
+
+o lourd1.png
+o lourd2.png
+o lourd3.png
+o lourd4.png
+o lourd5.png
+o lourd6.png
+o lourd7.png
+o lourd8.png
+o lourd9.png
+o lourd10.png
+
+o leger1.png
+o leger2.png
+o leger3.png
+o leger4.png
+o leger5.png
+o leger6.png
+o leger7.png
+o leger8.png
+o leger9.png
+o leger10.png
+
+o vrille1.png
+o vrille2.png
+o vrille3.png
+o vrille4.png
+o vrille5.png
+o vrille6.png
+o vrille7.png
+o vrille8.png
+o vrille9.png
+o vrille10.png
+
+o boss1.gif
+o boss2.gif
+o boss3.gif
+o boss4.gif
+o boss5.gif
+o boss6.gif
+o boss7.gif
+o boss8.gif
+o boss9.gif
+o boss10.gif
+
+o space.gif
+o base.png
+o detail1.png
+o detail2.png
+o detail3.png
+o detail4.png
+o detail5.png
+o detail6.png
+o detail7.png
+o detail8.png
+o detail9.png
+o detail10.png
+o detail11.png
+o detail12.png
+o detail13.png
+o detail14.png
+o detail15.png
+o detail16.png
+o detail17.png
+o detail18.png
+o detail19.png
+o detail20.png
+
+o mis1.gif
+o mis2.gif
+o mis3.gif
+o mis4.gif
+o mit.gif
+o mit1.gif
+o mit2.gif
+o laser1.png
+o laser2.png
+
+o wea1.png
+o wea2.png
+o wea3.png
+o wea4.png
+o wea5.png
+o wea6.png
+o wea7.png
+o wea8.png
+o wea12.png
+o lif.gif
+
+o ex1.png
+o ex2.png
+o ex3.png
+o ex4.png
+o ex5.png
+o imp1.png
+o imp2.png
+o imp3.png
+
+o op1.png
+o op2.png
+o op3.png
+o op4.png
+o op5.png
+o op6.png
+o op7.png
+o op8.png
+o op9.png
+o op10.png
+o op11.png
+o op12.png
+o op13.png
+o bulle1.png
+o bulle2.png
+
+o amb.png
+o interface1.gif
+o interface2.gif
+o interface4.gif
+o interface5.png
+o interface6.gif
+o interface7.gif
+
+
+

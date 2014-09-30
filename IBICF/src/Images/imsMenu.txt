@@ -1,0 +1,23 @@
+
+// imsMenu.txt images
+
+o avion1.png
+o avion2.png
+o avion3.png
+o bulle1.png
+o bulle2.png
+
+o interface4.gif
+o interface5.png
+o bt1.png
+o bt2.png
+o bt3.png
+o bt4.png
+o bt5.png
+s reso.png 3
+s diff.png 3
+s nbs.png 10
+o bg.jpg
+
+
+
